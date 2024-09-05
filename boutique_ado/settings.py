@@ -34,7 +34,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-leellismith-boutiqueado-ar29p9rg9ow.ws.codeinstitute-ide.net', 'boutique-ado-lee-smith-cb9d6e13d84f.herokuapp.com']
+ALLOWED_HOSTS = ['boutique-ado-lee-smith-cb9d6e13d84f.herokuapp.com', 'localhost']
 
 
 # Application definition
