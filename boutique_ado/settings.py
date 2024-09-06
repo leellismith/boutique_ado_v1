@@ -187,6 +187,7 @@ STATICFILES_DIRS = (os.path.join(STATIC_ROOT, 'css'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'media')
 
+
 if 'USE_AWS' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'boutique-ado-lee-smith'
