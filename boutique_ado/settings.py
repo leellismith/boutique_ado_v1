@@ -217,6 +217,13 @@ if 'USE_AWS' in os.environ:
                 "file_overwrite": False,
             },
         },
+        "staticfiles": {
+            "BACKEND": "storages.backends.s3.S3Storage",
+            "OPTIONS": {
+                "location": "static",
+                "default_acl": "public-read",
+            },
+        },
     }
 
 # Stripe
