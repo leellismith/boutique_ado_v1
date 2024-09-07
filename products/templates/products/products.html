@@ -132,6 +132,7 @@
 			window.scrollTo(0,0)
 		})
 	</script>
+    
     <script type="text/javascript">
         $('#sort-selector').change(function() {
             var selector = $(this);
@@ -143,7 +144,7 @@
                 var direction = selectedVal.split("_")[1];
 
                 currentUrl.searchParams.set("sort", sort);
-                currentUrl.searchParams.set('direction', direction);
+                currentUrl.searchParams.set("direction", direction);
 
                 window.location.replace(currentUrl);
             } else {
