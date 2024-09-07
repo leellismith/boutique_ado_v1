@@ -19,7 +19,6 @@ if os.path.isfile('env.py'):
 
 
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -33,7 +32,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['boutique-ado-lee-smith-cb9d6e13d84f.herokuapp.com', '8000-leellismith-boutiqueado-ar29p9rg9ow.ws.codeinstitute-ide.net']
 
